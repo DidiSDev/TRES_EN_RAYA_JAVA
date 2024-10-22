@@ -47,9 +47,7 @@ public class Funcionalidad implements ActionListener {
 						{
 							v.getGanador().setText("¡Jugador 2 ha ganado!");
 							v.deshabilitarBotones();
-						}
-						
-						
+						}	
 					}
 		
 				}
@@ -117,6 +115,8 @@ public class Funcionalidad implements ActionListener {
 			v.setInterruptor(true);//TENGO Q PONER ESTO EN TRUE PQ
 			//SINO, AL REINICIAR, LE TOCA SUPUESTAMENTE A LA COMPUTADORA Y EL BOTÓN JUGADA IA ESTÁ
 			//DESHABILITADO
+			v.getGanador().setText("");
+			v.getJugadaIA().setVisible(true);
 		}
 		if (reiniciar==false)
 		{

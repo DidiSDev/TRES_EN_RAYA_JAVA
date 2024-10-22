@@ -50,6 +50,9 @@ public class Ventana extends JFrame{
 		{
 			botones[i].setEnabled(false);
 		}
+		jugadaIA.setEnabled(false);
+		//QUITAMOS AL JUGADOR GANADOR
+		
 	}
 	
 	public void panelIzq()
